@@ -11,6 +11,7 @@ public class comparator_example {
         student b = new student("b", 13, 2);
         student c = new student("c", 14, 3);
         student[] students = {b, a, c};
+        /*如果不传入比较器实例，则会使用默认的排序，对内存地址进行排序*/
         Arrays.sort(students, new student.idAscendingComparator());
     }
 }
