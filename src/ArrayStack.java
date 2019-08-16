@@ -6,6 +6,7 @@ public class ArrayStack {
     public ArrayStack(int initsize) {
         this.initsize=initsize;
         if (initsize < 0) {
+            /*非法参数抛出*/
             throw new IllegalArgumentException("该栈初始化大小小于0");
         }
         arr = new Integer[initsize];
