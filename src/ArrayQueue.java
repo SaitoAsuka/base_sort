@@ -1,5 +1,3 @@
-import java.lang.reflect.Array;
-
 public class ArrayQueue {
     private int start;
     private int end;
@@ -34,7 +32,7 @@ public class ArrayQueue {
         start = nextIndex(arr.length, start);
         return arr[temp];
     }
-    public Integer pull(int obj){
+    public void pull(int obj){
         if (size==initsize){
             throw new ArrayIndexOutOfBoundsException("队列已满");
         }
