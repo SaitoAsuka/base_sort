@@ -1,3 +1,5 @@
+package sort;
+
 public class d_fastsort {
     public static int[] partition(int[] arr, int L, int R){
         /*小于区是小于标记值的部分，大于区是大于标记值的部分

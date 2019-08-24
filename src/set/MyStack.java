@@ -1,3 +1,5 @@
+package set;
+
 import java.util.Stack;
 
 /*要求：设计栈，可以使用系统自带栈

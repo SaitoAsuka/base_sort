@@ -1,3 +1,5 @@
+package sort;
+
 public class digui {
     public int[] sort_process(int[] arr, int L, int R) {
         int mid = L + (R - L) / 2;

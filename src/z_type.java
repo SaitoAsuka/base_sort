@@ -34,7 +34,6 @@ public class z_type {
         int endc = matrix[0].length - 1;
         boolean fromup = false;
         while (row1 != endr + 1) {
-
             /*调用对角线方法*/
             get_diagonal(matrix, row1, row2, col1, col2, fromup);
             /*判断是否到底*/
