@@ -2,7 +2,7 @@ package Link;
 
 import com.sun.security.auth.NTDomainPrincipal;
 
-/*打印一个链表公共的部分*/
+/*打印一个有序链表公共的部分*/
 
 
 public class PrintCommonLink {
