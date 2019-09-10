@@ -21,7 +21,7 @@ public class InOrderWithoutRecursion {
     }
 
     public static void main(String[] args) {
-        /*这是不是用递归地中序遍历*/
+        System.out.println("/*这是不使用递归地中序遍历*/");
         tree_node head = preOrder.createTree();
         order(head);
     }
