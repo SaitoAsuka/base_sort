@@ -14,10 +14,10 @@ public class getPostNode {
         } else {
             node parrent = current.parrent;
             /*当右子树为空，寻找该节点父节点及以上，若存在
-            * 某节点为上一节点的左孩子，则该节点为目标节点的后继节点。*/
-            while (parrent.left!=current&&parrent != null) {
+             * 某节点为上一节点的左孩子，则该节点为目标节点的后继节点。*/
+            while (parrent.left != current && parrent != null) {
                 /*current节点不断向上追溯*/
-                current= parrent;
+                current = parrent;
                 parrent = current.parrent;
             }
             return current;
@@ -37,13 +37,3 @@ public class getPostNode {
     }
 }
 
-class node {
-    int data;
-    node parrent;
-    node left;
-    node right;
-
-    public node(int data) {
-        this.data = data;
-    }
-}
